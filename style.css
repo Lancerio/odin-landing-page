@@ -78,14 +78,14 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .content {
-    padding: 8px 32px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center
+  padding: 8px 32px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
 }
 
 .contents {
@@ -105,7 +105,6 @@ ul {
   height: 200px;
 }
 
-
 .quote {
     background-color: #E5E7EB;
     padding: 48px;
@@ -116,6 +115,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .quotation {
@@ -140,7 +140,7 @@ ul {
     color: #fff;
     font-size: 16px;
     background-color: #3882F6;
-    padding: 18px;
+    padding: 8px 18px;
     display: flex;
     justify-content: center;
     align-items: center;
