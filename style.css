@@ -38,7 +38,6 @@ ul {
     flex-wrap; wrap;
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
 .top-left {
@@ -85,7 +84,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 24px;
 }
 
 .contents {
